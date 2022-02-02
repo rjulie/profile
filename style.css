@@ -1,0 +1,118 @@
+/* Ajoute des règles CSS simples
+pour les polices et les couleurs
+de ton profil. */
+
+body {
+  background-color: #fefcec;
+  color: #575F7D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+}
+
+h2 {
+  color: #575F7D;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+}
+
+.small-title {
+  color: #575F7D;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+li>a {
+  color: #575F7D;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 32px;
+}
+
+a:hover {
+  color: #fbf18f;
+  transition: 0.25s;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.btn-yellow {
+  background-color: #fbf18f;
+  border-color: #575F7D;
+  color: #575F7D;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.btn-yellow:hover  {
+  background-color:  #575F7D;
+  transition: 0.25s;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+#tag {
+  border: solid 1px #575F7D;
+  padding: 6px 12px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
